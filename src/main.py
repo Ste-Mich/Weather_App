@@ -51,7 +51,7 @@ vstup.place(relx=0.23, rely=0, relwidth=0.75, relheight=1)
 obraz_dolni = tk.Frame(hlavni, bg="#ffcc66", bd=10)
 obraz_dolni.place(relx=0.1,rely=0.28,relheight=1.00-0.28-0.10, relwidth=0.8)
 
-popis = tk.Label(obraz_dolni, font=("Courier", 20), text="Try: 'Prague', 'Praha', '69420'", bg="#ffeecc")
+popis = tk.Label(obraz_dolni, font=("Courier", 20), text="Try: 'Prague', 'Praha', '1234'", bg="#ffeecc")
 popis.place(relx=0, rely=0, relwidth=1, relheight=1)
 
 print(tk.font.families())
